@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="text-white font-bold flex items-center">
               <img src={logo_final} alt="Logo" style={logoStyle} />
-              <span className="ml-2">PreDiaBet</span>
+              <span className="ml-2">Entername</span>
             </Link>
           </div>
           <div className="hidden 850px:block">
@@ -43,25 +43,16 @@ const Navbar = () => {
               <NavLink to="/prediction" onClick={closeMenu}>
                 Prediction
               </NavLink>
-              <NavLink to="/visualization" onClick={closeMenu}>
-                Visualization
-              </NavLink>
+              
               <NavLink to="/contact" onClick={closeMenu}>
                 Contact Us
               </NavLink>
               <NavLink to="/FAQ" onClick={closeMenu}>
                 FAQ
               </NavLink>
-              <a
-                href="https://github.com/BamaCharanChhandogi/Diabetes-Prediction"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-md font-medium"
-                onClick={closeMenu}
-              >
-                <CiStar className="w-7 h-7 text-yellow-500 font-bold mr-2" />
-                <FaGithub className="h-7 w-7" />
-              </a>
+              
+              
+              
             </div>
           </div>
           <div className="-mr-2 flex 850px:hidden">

@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="w-full md:w-1/4 mb-8 md:mb-0">
           <h2 className="text-2xl font-semibold mb-4">Stay Connected</h2>
           <div className="flex space-x-4 text-2lg">
-            <a href="https://twitter.com/BamaCharanCh/" className="text-white hover:text-gray-400 transition-colors duration-300">
+            <a href="" className="text-white hover:text-gray-400 transition-colors duration-300">
               <img src='https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=ffffff' alt="X Logo" className="w-8 h-8" />
             </a>
             <a href="https://www.instagram.com/loving_coding" className="text-white hover:text-gray-400 transition-colors duration-300">
@@ -75,7 +75,7 @@ const Footer = () => {
             href="https://www.github.com/BamaCharanChhandogi"
             className="text-gray-400 hover:text-white transition-colors duration-300 text-center md:text-right"
           >
-            <p>Developed by Bama Charan Chhandogi</p>
+            
           </a>
         </div>
       </div>
