@@ -122,7 +122,7 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
-
+         
       <div className="container mx-auto my-8 px-4">
         <motion.h2
           initial={{ opacity: 0, y: 150 }}
@@ -185,7 +185,7 @@ const Home = () => {
             </Link>
           </motion.div>
         </div>
-
+             
         <div className="flex flex-col gap-10 md:flex-row-reverse justify-around bg-blue-100 items-center mb-8 md:mx-10 border p-4 rounded-md">
           <motion.div
             initial={{ opacity: 0, x: -150 }}

@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="text-white font-bold flex items-center">
               <img src={logo_final} alt="Logo" style={logoStyle} />
-              <span className="ml-2">Entername</span>
+              <span className="ml-2">DiabPro</span>
             </Link>
           </div>
           <div className="hidden 850px:block">

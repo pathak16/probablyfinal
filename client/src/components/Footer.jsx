@@ -50,16 +50,16 @@ const Footer = () => {
             <a href="" className="text-white hover:text-gray-400 transition-colors duration-300">
               <img src='https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=ffffff' alt="X Logo" className="w-8 h-8" />
             </a>
-            <a href="https://www.instagram.com/loving_coding" className="text-white hover:text-gray-400 transition-colors duration-300">
+            <a href="" className="text-white hover:text-gray-400 transition-colors duration-300">
               <FaInstagram className="text-2xl" />
             </a>
-            <a href="https://www.linkedin.com/in/bama-charan-chhandogi-b63420240/" className="text-white hover:text-gray-400 transition-colors duration-300">
+            <a href="" className="text-white hover:text-gray-400 transition-colors duration-300">
               <FaLinkedinIn className="text-2xl" />
             </a>
             <a href="https://github.com/BamaCharanChhandogi" className="text-white hover:text-gray-400 transition-colors duration-300">
               <FaGithub className="text-2xl" />
             </a>
-            <a href="https://quora.com/profile/Bama-Charan-Chhandogi" className="text-white hover:text-gray-400 transition-colors duration-300">
+            <a href="" className="text-white hover:text-gray-400 transition-colors duration-300">
               <FaQuora className="text-2xl" />
             </a>
           </div>
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
         <div>
           <a
-            href="https://www.github.com/BamaCharanChhandogi"
+            href="https://github.com/pathak16"
             className="text-gray-400 hover:text-white transition-colors duration-300 text-center md:text-right"
           >
             

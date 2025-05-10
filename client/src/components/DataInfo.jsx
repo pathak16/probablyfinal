@@ -52,7 +52,7 @@ function DataInfo() {
           stiffness: 100,
           delay: 0.5,
         }}
-        className="text-3xl font-bold mb-4 text-purple-800 text-center p-2 border-b-2"
+        className="text-3xl font-bold mb-4 text-blue-800 text-center p-2 border-b-2"
       >
         Data Information
       </motion.h1>
@@ -68,7 +68,7 @@ function DataInfo() {
             delay: 0.5,
           }}
           className="overflow-x-auto overflow-y-auto rounded-lg shadow-lg mx-10"
-          style={{ maxHeight: "420px" }}
+          style={{ maxHeight: "600px" }}
         >
           <div className="">
             <table className="w-full border-collapse">
@@ -78,7 +78,7 @@ function DataInfo() {
                     <th
                       key={index}
                       onClick={() => handleSort(header)}
-                      className="px-4 py-2 bg-purple-100 text-purple-800 sticky top-0 font-bold border cursor-pointer relative"
+                      className="px-4 py-4 bg-blue-100 text-blue-400 sticky top-0 font-bold border cursor-pointer relative"
                     >
                       {header}
                       <span className="absolute right-0 top-1/2 transform -translate-y-1/2">

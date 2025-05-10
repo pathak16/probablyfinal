@@ -41,7 +41,7 @@ const Prediction = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 flex flex-col items-center justify-center pb-3 md:pb-0">
+    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-blue-800 flex flex-col items-center justify-center pb-3 md:pb-0">
       <div className="flex flex-col sm:flex-row items-center justify-center w-full">
         <motion.div
           initial={{ opacity: 0, x: -150 }}
@@ -55,7 +55,7 @@ const Prediction = () => {
           }}
           className="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8 sm:p-6 md:p-8 w-full sm:w-auto"
         >
-          <h1 className="text-3xl font-bold mb-6 text-center text-purple-800">
+          <h1 className="text-3xl font-bold mb-6 text-center text-blue-800">
             Enter all details
           </h1>
           <form onSubmit={handleSubmit}>
@@ -73,7 +73,7 @@ const Prediction = () => {
                     name="Age"
                     value={userInput.Age}
                     onChange={handleChange}
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-purple-500"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
                 <div className="mb-4">
@@ -88,7 +88,7 @@ const Prediction = () => {
                     name="Pregnancies"
                     value={userInput.Pregnancies}
                     onChange={handleChange}
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-purple-500"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
                 <div className="mb-4">
@@ -103,7 +103,7 @@ const Prediction = () => {
                     name="Glucose"
                     value={userInput.Glucose}
                     onChange={handleChange}
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-purple-500"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
                 <div className="mb-4">
@@ -118,7 +118,7 @@ const Prediction = () => {
                     name="BloodPressure"
                     value={userInput.BloodPressure}
                     onChange={handleChange}
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-purple-500"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
               </div>
@@ -135,7 +135,7 @@ const Prediction = () => {
                     name="Insulin"
                     value={userInput.Insulin}
                     onChange={handleChange}
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-purple-500"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
                 <div className="mb-4">
@@ -150,7 +150,7 @@ const Prediction = () => {
                     name="BMI"
                     value={userInput.BMI}
                     onChange={handleChange}
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-purple-500"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
                 <div className="mb-4">
@@ -165,7 +165,7 @@ const Prediction = () => {
                     name="SkinThickness"
                     value={userInput.SkinThickness}
                     onChange={handleChange}
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-purple-500"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
                 <div className="mb-4">
@@ -180,7 +180,7 @@ const Prediction = () => {
                     name="DPF"
                     value={userInput.DPF}
                     onChange={handleChange}
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-purple-500"
+                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
               </div>
@@ -191,7 +191,7 @@ const Prediction = () => {
                 className={`py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-colors duration-300 ${
                   buttonDisabled
                     ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                    : "bg-purple-500 hover:bg-purple-700 text-white font-bold"
+                    : "bg-blue-500 hover:bg-blue-700 text-white font-bold"
                 }`}
                 disabled={buttonDisabled}
               >
@@ -214,7 +214,7 @@ const Prediction = () => {
         >
           {!prediction && (
             <div className="bg-white p-6 rounded-lg shadow-lg mx-4 sm:mx-0 mt-4 sm:mt-0 w-full max-w-3xl">
-              <h2 className="text-2xl font-bold mb-4 text-purple-800 text-center">
+              <h2 className="text-2xl font-bold mb-4 text-blue-800 text-center">
                 About the Parameters
               </h2>
               <ul className="list-disc pl-5 space-y-2 text-gray-700">
